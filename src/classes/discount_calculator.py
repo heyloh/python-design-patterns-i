@@ -1,4 +1,4 @@
-from classes import Budget, FiveItens, ValueGreaterThanFiveHundred, NotEligible
+from src.classes import Budget, FiveItens, ValueGreaterThanFiveHundred, NotEligible
 
 
 class DiscountCalculator:

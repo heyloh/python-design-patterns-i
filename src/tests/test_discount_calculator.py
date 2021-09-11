@@ -1,6 +1,8 @@
 from unittest import TestCase
 
-from classes import Budget, Item, DiscountCalculator
+from src.classes.budget import Budget
+from src.classes.item import Item
+from src.classes.discount_calculator import DiscountCalculator
 
 
 class TestDiscountCalculator(TestCase):

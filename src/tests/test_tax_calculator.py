@@ -1,6 +1,9 @@
 from unittest import TestCase
 
-from classes import Budget, Item, ISS, ICMS, ICPP, IKCV, TaxCalculator
+from src.classes.budget import Budget
+from src.classes.item import Item
+from src.classes.tax_calculator import TaxCalculator
+from src.classes.tax import ISS, ICMS, ICPP, IKCV
 
 
 class TestTaxCalculator(TestCase):

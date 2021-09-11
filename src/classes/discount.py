@@ -1,4 +1,4 @@
-from classes import Budget
+from src.classes import Budget
 
 
 class DiscountType:

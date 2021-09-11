@@ -1,6 +1,7 @@
 from unittest import TestCase
 
-from classes import Budget, Item
+from src.classes.budget import Budget
+from src.classes.item import Item
 
 
 class TestBudget(TestCase):
