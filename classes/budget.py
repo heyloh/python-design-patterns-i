@@ -1,4 +1,4 @@
-from classes.item import Item
+from classes import Item
 
 
 class Budget:

@@ -1,9 +1,10 @@
-from classes.tax import TaxType
+from classes import TaxType, ConditionalTaxType
 
 
 class TaxCalculator:
     @staticmethod
     def calculate(budget, tax_type):
-        if not isinstance(tax_type, TaxType):
+        if isinstance(tax_type, (TaxType, ConditionalTaxType)):
+            return tax_type.calculate(budget)
+        else:
             raise TypeError("Invalid class for Tax.")
-        return tax_type.calculate(budget)
